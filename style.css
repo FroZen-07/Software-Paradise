@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.main-header{
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url(images/HEADER_BG.jfif);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.nav ul{
+    margin : 0;
+}
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom:1px solid rgba(255, 255, 255, .3));
+}
+
+.main-nav li{
+    padding: 0 3%;
+}
+.name-main{
+    text-align: center;
+    margin: 0%;
+    font-size: 7em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: seashell;
+    font-weight: normal;
+    font-style: normal;
+
+}
+.name-main-small{
+    font-size: 3em;
+    align-self: baseline;
+}
+.name-main-2{
+    text-align: center;
+    margin: 0%;
+    font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: seashell;
+    font-weight: normal;
+    font-style: normal;
+
+}
+.section-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: normal;
+    color: 333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.section-header-2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: normal;
+    color: 333;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.55em;
+}
+
+.section-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: normal;
+    color: 333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-image{
+    float: initial;
+    height : 300px;
+    width: 500px;
+    margin: 15px;
+    border-radius: 0%;
+}
+
+footer {
+    background-color: rgb(54, 69, 136);
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+footer a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
